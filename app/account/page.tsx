@@ -6,6 +6,7 @@ import { redirect } from 'next/navigation';
 
 export default async function Account() {
   const supabase = createClient();
+  //test
 
   const {
     data: { user }
